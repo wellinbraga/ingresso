@@ -1,4 +1,4 @@
-package br.com.fabricasoftwarehh.pass_in;
+package br.com.fabricasoftwarehh.ingresso;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

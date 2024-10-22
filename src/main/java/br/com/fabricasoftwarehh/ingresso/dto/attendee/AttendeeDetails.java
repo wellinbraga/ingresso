@@ -1,4 +1,4 @@
-package br.com.fabricasoftwarehh.pass_in.dto.attendee;
+package br.com.fabricasoftwarehh.ingresso.dto.attendee;
 
 import java.time.LocalDateTime;
 

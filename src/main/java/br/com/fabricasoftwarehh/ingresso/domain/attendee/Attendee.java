@@ -1,6 +1,6 @@
-package br.com.fabricasoftwarehh.pass_in.domain.attendee;
+package br.com.fabricasoftwarehh.ingresso.domain.attendee;
 
-import br.com.fabricasoftwarehh.pass_in.domain.event.Event;
+import br.com.fabricasoftwarehh.ingresso.domain.event.Event;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -28,5 +28,4 @@ public class Attendee {
     private Event event;
     @Column(nullable = false)
     private LocalDateTime createdAt;
-
 }

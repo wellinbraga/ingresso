@@ -1,4 +1,4 @@
-package br.com.fabricasoftwarehh.pass_in.domain.event;
+package br.com.fabricasoftwarehh.ingresso.domain.event;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,6 +1,6 @@
-package br.com.fabricasoftwarehh.pass_in.domain.checkin;
+package br.com.fabricasoftwarehh.ingresso.domain.checkin;
 
-import br.com.fabricasoftwarehh.pass_in.domain.attendee.Attendee;
+import br.com.fabricasoftwarehh.ingresso.domain.attendee.Attendee;
 import jakarta.persistence.*;
 import lombok.Getter;
 

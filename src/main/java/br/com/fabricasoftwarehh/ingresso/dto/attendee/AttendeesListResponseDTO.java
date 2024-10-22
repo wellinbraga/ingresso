@@ -1,6 +1,4 @@
-package br.com.fabricasoftwarehh.pass_in.dto.attendee;
-
-import lombok.Getter;
+package br.com.fabricasoftwarehh.ingresso.dto.attendee;
 
 import java.util.List;
 public record AttendeesListResponseDTO (List<AttendeeDetails> attendees) {

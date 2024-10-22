@@ -1,6 +1,6 @@
-package br.com.fabricasoftwarehh.pass_in.dto.event;
+package br.com.fabricasoftwarehh.ingresso.dto.event;
 
-import br.com.fabricasoftwarehh.pass_in.domain.event.Event;
+import br.com.fabricasoftwarehh.ingresso.domain.event.Event;
 import lombok.Getter;
 
 @Getter

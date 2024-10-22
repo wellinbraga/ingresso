@@ -1,6 +1,6 @@
-package br.com.fabricasoftwarehh.pass_in.config;
+package br.com.fabricasoftwarehh.ingresso.config;
 
-import br.com.fabricasoftwarehh.pass_in.domain.event.exeptions.EventNotFoundException;
+import br.com.fabricasoftwarehh.ingresso.domain.event.exeptions.EventNotFoundException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

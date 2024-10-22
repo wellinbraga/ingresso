@@ -1,12 +1,12 @@
-package br.com.fabricasoftwarehh.pass_in.services;
+package br.com.fabricasoftwarehh.ingresso.services;
 
-import br.com.fabricasoftwarehh.pass_in.domain.attendee.Attendee;
-import br.com.fabricasoftwarehh.pass_in.domain.event.Event;
-import br.com.fabricasoftwarehh.pass_in.domain.event.exeptions.EventNotFoundException;
-import br.com.fabricasoftwarehh.pass_in.dto.event.EventIdDTO;
-import br.com.fabricasoftwarehh.pass_in.dto.event.EventRequestDTO;
-import br.com.fabricasoftwarehh.pass_in.dto.event.EventResponseDTO;
-import br.com.fabricasoftwarehh.pass_in.repositories.EventRepository;
+import br.com.fabricasoftwarehh.ingresso.domain.attendee.Attendee;
+import br.com.fabricasoftwarehh.ingresso.domain.event.Event;
+import br.com.fabricasoftwarehh.ingresso.domain.event.exeptions.EventNotFoundException;
+import br.com.fabricasoftwarehh.ingresso.dto.event.EventIdDTO;
+import br.com.fabricasoftwarehh.ingresso.dto.event.EventRequestDTO;
+import br.com.fabricasoftwarehh.ingresso.dto.event.EventResponseDTO;
+import br.com.fabricasoftwarehh.ingresso.repositories.EventRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -1,11 +1,11 @@
-package br.com.fabricasoftwarehh.pass_in.controllers;
+package br.com.fabricasoftwarehh.ingresso.controllers;
 
-import br.com.fabricasoftwarehh.pass_in.dto.attendee.AttendeesListResponseDTO;
-import br.com.fabricasoftwarehh.pass_in.dto.event.EventIdDTO;
-import br.com.fabricasoftwarehh.pass_in.dto.event.EventRequestDTO;
-import br.com.fabricasoftwarehh.pass_in.dto.event.EventResponseDTO;
-import br.com.fabricasoftwarehh.pass_in.services.AttendeeService;
-import br.com.fabricasoftwarehh.pass_in.services.EventService;
+import br.com.fabricasoftwarehh.ingresso.dto.attendee.AttendeesListResponseDTO;
+import br.com.fabricasoftwarehh.ingresso.dto.event.EventIdDTO;
+import br.com.fabricasoftwarehh.ingresso.dto.event.EventRequestDTO;
+import br.com.fabricasoftwarehh.ingresso.dto.event.EventResponseDTO;
+import br.com.fabricasoftwarehh.ingresso.services.AttendeeService;
+import br.com.fabricasoftwarehh.ingresso.services.EventService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

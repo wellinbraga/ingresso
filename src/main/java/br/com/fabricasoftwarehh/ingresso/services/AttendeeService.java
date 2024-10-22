@@ -1,17 +1,15 @@
-package br.com.fabricasoftwarehh.pass_in.services;
+package br.com.fabricasoftwarehh.ingresso.services;
 
-import br.com.fabricasoftwarehh.pass_in.domain.attendee.Attendee;
-import br.com.fabricasoftwarehh.pass_in.domain.checkin.Checkin;
-import br.com.fabricasoftwarehh.pass_in.domain.event.Event;
-import br.com.fabricasoftwarehh.pass_in.dto.attendee.AttendeeDetails;
-import br.com.fabricasoftwarehh.pass_in.dto.attendee.AttendeeIdDto;
-import br.com.fabricasoftwarehh.pass_in.dto.attendee.AttendeeRequestDTO;
-import br.com.fabricasoftwarehh.pass_in.dto.attendee.AttendeesListResponseDTO;
-import br.com.fabricasoftwarehh.pass_in.dto.event.EventIdDTO;
-import br.com.fabricasoftwarehh.pass_in.dto.event.EventRequestDTO;
-import br.com.fabricasoftwarehh.pass_in.repositories.AttendeeRepository;
-import br.com.fabricasoftwarehh.pass_in.repositories.CheckinRepository;
-import br.com.fabricasoftwarehh.pass_in.repositories.EventRepository;
+import br.com.fabricasoftwarehh.ingresso.domain.attendee.Attendee;
+import br.com.fabricasoftwarehh.ingresso.domain.checkin.Checkin;
+import br.com.fabricasoftwarehh.ingresso.domain.event.Event;
+import br.com.fabricasoftwarehh.ingresso.dto.attendee.AttendeeDetails;
+import br.com.fabricasoftwarehh.ingresso.dto.attendee.AttendeeIdDto;
+import br.com.fabricasoftwarehh.ingresso.dto.attendee.AttendeeRequestDTO;
+import br.com.fabricasoftwarehh.ingresso.dto.attendee.AttendeesListResponseDTO;
+import br.com.fabricasoftwarehh.ingresso.repositories.AttendeeRepository;
+import br.com.fabricasoftwarehh.ingresso.repositories.CheckinRepository;
+import br.com.fabricasoftwarehh.ingresso.repositories.EventRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

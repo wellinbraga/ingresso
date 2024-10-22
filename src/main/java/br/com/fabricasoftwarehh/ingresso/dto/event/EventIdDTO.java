@@ -1,4 +1,4 @@
-package br.com.fabricasoftwarehh.pass_in.dto.event;
+package br.com.fabricasoftwarehh.ingresso.dto.event;
 
 public record EventIdDTO(String eventId) {
 }

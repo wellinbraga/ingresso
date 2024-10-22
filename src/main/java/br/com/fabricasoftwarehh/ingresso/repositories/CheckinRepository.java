@@ -1,6 +1,6 @@
-package br.com.fabricasoftwarehh.pass_in.repositories;
+package br.com.fabricasoftwarehh.ingresso.repositories;
 
-import br.com.fabricasoftwarehh.pass_in.domain.checkin.Checkin;
+import br.com.fabricasoftwarehh.ingresso.domain.checkin.Checkin;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
