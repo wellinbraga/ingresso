@@ -1,6 +1,7 @@
 package br.com.fabricasoftwarehh.ingresso.services;
 
 import br.com.fabricasoftwarehh.ingresso.domain.attendee.Attendee;
+import br.com.fabricasoftwarehh.ingresso.domain.attendee.exception.AttendeeAlreadyExistException;
 import br.com.fabricasoftwarehh.ingresso.domain.checkin.Checkin;
 import br.com.fabricasoftwarehh.ingresso.domain.event.Event;
 import br.com.fabricasoftwarehh.ingresso.dto.attendee.AttendeeDetails;
@@ -41,19 +42,13 @@ public class AttendeeService {
         return new AttendeesListResponseDTO(attendeeDetailsList);
     }
 
-    public AttendeeIdDto createAttendee(AttendeeRequestDTO body) {
-        Attendee newAttendee = new Attendee();
-        newAttendee.setName(body.name());
-        newAttendee.setEmail(body.email());
-
-        Optional<Event> event = this.eventRepository.findById(body.event());
-        Event eventCreate = event.orElse(null);
-        newAttendee.setEvent(eventCreate);
-
-        newAttendee.setCreatedAt(LocalDateTime.now());
-
+    public Attendee registerAttendee(Attendee newAttendee) {
         this.attendeeRepository.save(newAttendee);
+        return newAttendee;
+    }
 
-        return new AttendeeIdDto(newAttendee.getId());
+    public void verifyAttendeeSubscription(String email, String eventId) {
+        Optional<Attendee> isAttendeeRegistered = this.attendeeRepository.findByEventIdAndEmail(eventId, email);
+        if(isAttendeeRegistered.isPresent()) throw  new AttendeeAlreadyExistException("Attendee is already registered");
     }
 }
